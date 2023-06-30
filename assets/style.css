@@ -16,6 +16,18 @@
             text-align: center;
             color: #ffffff;
         }
+        @media (max-width: 768px) {
+            header {
+                background-position: top center;
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            header {
+                height: 200px;
+            }
+        }
         
         .profile-picture {
             width: 200px;
