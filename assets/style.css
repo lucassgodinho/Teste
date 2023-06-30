@@ -1,6 +1,6 @@
 
         body {
-            background-color: #ef95c8;
+            background-color: #4c4848;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -8,13 +8,13 @@
         }
         
         header {
-            background-image: url('/Teste/img/Kaká\ Godinho\ -\ Arte\ produtos\ 3.png');
+            background-image: url('/Teste/img/fotoLogo.png');
             background-size: cover;
             height: 400px;
             position: relative;
             overflow: hidden;
             text-align: center;
-            color: #fff;
+            color: #ffffff;
         }
         
         .profile-picture {
@@ -38,7 +38,7 @@
             color: #fff;
         }
         
-        .header-content h1 {
+        .header-content h2 {
             font-size: 36px;
             margin: 0;
         }
@@ -52,6 +52,10 @@
             padding: 40px;
             text-align: center;
             
+        }
+        section h1{
+            font-family: "Montserrat";
+            color: #ffffff;
         }
         
         section h2 {
@@ -73,7 +77,7 @@
         }
         
         footer {
-            background-color: #bbbbbb;
+            background-color: #4c4848;
             padding: 40px;
             text-align: center;
         }
