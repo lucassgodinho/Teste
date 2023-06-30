@@ -1,0 +1,113 @@
+
+        body {
+            background-color: #ef95c8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        header {
+            background-image: url('/img/fotofundo.png');
+            background-size: cover;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-image: url('/img/foto-perfil.png.jpg');
+            background-size: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .header-content {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+        }
+        
+        .header-content h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        .header-content p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        
+        section {
+            padding: 40px;
+            text-align: center;
+            
+        }
+        
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        
+        footer {
+            background-color: #bbbbbb;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .footer-content p {
+            margin: 10px;
+        }
+        
+        @media (max-width: 600px) {
+            .header-content h1 {
+                font-size: 24px;
+            }
+            
+            .header-content p {
+                font-size: 16px;
+            }
+            
+            section h2 {
+                font-size: 20px;
+            }
+            
+            .contact-info img {
+                width: 20px;
+                height: 20px;
+            }
+            
+            .footer-content p {
+                font-size: 14px;
+            }
+        }
