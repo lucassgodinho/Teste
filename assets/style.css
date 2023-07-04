@@ -28,14 +28,7 @@
                 height: 200px;
             }
         }
-        .header-content {
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: #fff;
-        }
+    
         
         .header-content h2 {
             font-size: 36px;
