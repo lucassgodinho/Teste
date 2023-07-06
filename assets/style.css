@@ -6,7 +6,7 @@ body {
   }
   
   .header-content {
-    background-image: url('/img/fotoLogo.png');
+    background-image: url('/img/logoHeader.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
