@@ -8,6 +8,10 @@
         }
         
         header{
+            background-image: url('img/fotoLogo.png');
+            background-size: cover;
+            height: 400px;
+            position: relative;
             overflow: hidden;
             text-align: center;
             color: #ffffff;
