@@ -1,104 +1,103 @@
-
-        body {
-            background-color: #4c4848;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            
-        }
-        
-        header {
-            background-image: url('/img/fotoLogo.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 400px;
-            position: relative;
-            overflow: hidden;
-            text-align: center;
-            color: #ffffff;
-          }
-    
-        
-        .header-content h2 {
-            font-size: 36px;
-            margin: 0;
-        }
-        
-        .header-content p {
-            font-size: 18px;
-            margin: 10px 0;
-        }
-        
-        section {
-            padding: 40px;
-            text-align: center;
-            
-        }
-        section h1{
-            font-family: "Montserrat";
-            color: #ffffff;
-            font-size: 15px;
-        }
-        a {
-            text-decoration: none;
-            color: #fffdfd;
-        }
-        
-        section h2 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        
-        .contact-info img {
-            width: 30px;
-            height: 30px;
-            margin-right: 10px;
-        }
-        
-        footer {
-            background-color: #4c4848;
-            padding: 40px;
-            text-align: center;
-        }
-        
-        .footer-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        
-        .footer-content p {
-            margin: 10px;
-        }
-        
-        @media (max-width: 600px) {
-            .header-content h1 {
-                font-size: 24px;
-            }
-            
-            .header-content p {
-                font-size: 16px;
-            }
-            
-            section h2 {
-                font-size: 20px;
-            }
-            
-            .contact-info img {
-                width: 20px;
-                height: 20px;
-            }
-            
-            .footer-content p {
-                font-size: 14px;
-            }
-        }
+body {
+    background-color: #4c4848;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-content {
+    background-image: url('/img/fotoLogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .header-content h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .header-content p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section h1 {
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fffdfd;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  footer {
+    background-color: #4c4848;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content p {
+    margin: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .header-content h1 {
+      font-size: 24px;
+    }
+  
+    .header-content p {
+      font-size: 16px;
+    }
+  
+    section h2 {
+      font-size: 20px;
+    }
+  
+    .contact-info img {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .footer-content p {
+      font-size: 14px;
+    }
+  }
+  
