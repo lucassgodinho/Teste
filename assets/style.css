@@ -7,23 +7,17 @@
             
         }
         
-        header{
-            background-image: url('img/fotoLogo.png');
+        header {
+            background-image: url('/img/fotoLogo.png');
             background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
             height: 400px;
             position: relative;
             overflow: hidden;
             text-align: center;
             color: #ffffff;
-        }
-        img {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: auto;
           }
-          
 
         @media (max-width: 768px) {
             header {
